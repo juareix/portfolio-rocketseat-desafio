@@ -24,17 +24,19 @@ body{
     grid-template-columns: 350px 3fr;
     gap: 30px;
 }
-
+h1{
+    font-size: 25px;
+}
 .coluna-lateral{
     display: flex;
     flex-direction: column;
 }
 
 .box--lateral{
-    min-height: 300px;
+    min-height: 200px;
     background-color: var(--bg-cards);
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
 }
 
@@ -69,10 +71,53 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .contact--item{
     display: flex;
     align-items: center;
     gap: 20px;  
+}
+
+/*tecnologias*/
+
+.techs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.techs--item{
+    background-color: var(--bg-techs);
+    color: #7d2c96;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+/*experinces and education*/
+
+.experience ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.experience ul li{
+    margin-bottom: 20px;
+}
+.experience ul h4{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.experience ul span{
+    font-size: 13px;
 }
