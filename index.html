@@ -5,140 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <section class="profile">
-                <img src="./assets/profile.jpg" alt="Profile image">
-                <h1>Juarez Maciel<h1>
-                <p>Desenvolvedor Front-end</p>
-            </section>
-    
-            <section class="links">
-                <a target="_blank" href="https://goo.gl/maps/dWH9BnVZu2ZmXGzz9">
-                    <img src="./assets/map-pin.svg" alt="icone google maps">
-                    <p>Manaus/AM, Brasil</p>
-                </a>
-    
-                <a target="_blank" href="https://github.com/juareix">
-                    <img src="./assets/github.svg" alt="Ícone do GitHub">
-                    <p>Juarez Maciel</p>
-                </a>
-    
-                <a target="_blank" href="https://www.linkedin.com/in/juarez-maciel-98aba8211/">
-                    <img src="./assets/linkedin.svg" alt="Ícone do Linkedin">
-                    <p>Juarez maciel da silva</p>
-                </a>
-    
-                <a target="_blank" href="https://www.instagram.com/">
-                    <img src="./assets/instagram.svg" alt="Ícone do Instagram">
-                    <p>@juareiix</p>
-                </a>
-    
-                <a target="_blank" href="mailto:juarezmaciel.dev@gmail.com">
-                    <img src="./assets/mail.svg" alt="Ícone do Email">
-                    <p>juarezmaciel.dev@gmail.com</p>
-                </a>
-            </section>
-    
-            <section class="tecnologias">
-                <h3>Tecnologias</h3>
-                    <div class="technology">
-                        <div class="tech">HTML</div>
-                        <div class="tech">CSS</div>
-                        <div class="tech">JavaScript</div>
-                        <div class="tech">NodeJS</div>
-                        <div class="tech">SQL</div>
-                        <div class="tech">GIT</div>
-                        <div class="tech">GitHub</div>
-                    </div>
-            </section>
-    
-            <section class="experiencias">
-                <h3>Experiências</h3>
-                    <ul>
-                        <li>IFAM
-                            <p>jan/2018 - jan/2019</p>
-                            <p>Estágio em informática - curso técnico</p>
-                        </li>
-                    </ul>
-            </section>
-    
-            <section class="educacao">
-                <h3>Educação</h3>
-                    <ul>
-                        <li>IFAM
-                            <p>Fev/2016 - Dez/2018</p>
-                            <p>Técnico em informática</p>
-                        </li>
-                        <li>UFAM
-                            <p>jan/2019 - Dez/2022</p>
-                            <p>Engenharia elétrica</p>
-                        </li>
-                        <li>Rocketseat
-                            <p>jan/2022 - Atualmente</p>
-                            <p>Discover</p>
-                        </li>
-                        <li>IFAM
-                            <p>fev/2023 - Atualmente</p>
-                            <p>Analise e desenvolvimento de sistemas</p>
-                        </li>
-                    </ul>
-            </section>
-        </aside>
-    
-        <main>
-            <section class="my-projects">
-                <h2>Meus Projetos</h2>
-                <a target="_blank" href="https://github.com/juareix">Veja todos</a>
-            </section>
-    
-            <section class="projects">
+    <div class="container-grid">
 
-                <div class="project-1">
-                    <div class="folder">
-                        <a target="_blank" href="https://github.com/juareix/desenhando-no-canvas.git">
-                            <img src="./assets/folder.svg" alt="Ícone de pasta">
-                            <p>Desenhando no canvas</p>
-                        </a>
-                    </div>
-                    <p>Desafio de código da B7web</p>
-                    <div class="icons">
-                        <img src="./assets/star.svg" alt="Ícone de estrela">
-                        <p>4</p>
-                        <img src="./assets/git-branch.svg" alt="Ícone de branch do Git">
-                        <p>0</p>
-                        <img src="./assets/briefcase.svg" alt="Ícone de círculo">
-                        <p>JavaScript</p>
-                    </div>
+        <div class="coluna-lateral">
+            <div class="box--lateral perfil">
+                <div class="profile">
+                    <img src="assets/profile.jpg" alt="">
                 </div>
 
-                <div class="project-2">
-                    <a target="_blank" href="https://github.com/juareix/Consulta-clima---b7web.git">
-                        <img src="./assets/folder.svg" alt="Ícone de pasta">
-                        <p>Consulta clima</p>
-                    </a>
-                    <p>Pagina que consulta clima de qualquer lugar</p>
-                    <div class="icons">
-                        <img src="./assets/star.svg" alt="Ícone de estrela">
-                        <p>4</p>
-                        <img src="./assets/git-branch.svg" alt="Ícone de branch do Git">
-                        <p>1</p>
-                        <img src="./assets/briefcase.svg" alt="Ícone de círculo">
-                        <p>JavaScript</p>
-                    </div>
+                <div class="desc">
+                    <h2>Juarez Maciel da Silva</h2>
+                    <h3>Front-End Developer</h3>
                 </div>
-                
+            </div>
 
-            </section>
-            
-        </main>
+            <div class="box--lateral contact">
+                <div class="contact--item">
+                    <img src="assets/map-pin.svg" alt=""> <span>Brasil</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/briefcase.svg" alt=""> <span>Estudante</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/github.svg" alt=""> <span>Juareix</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/linkedin.svg" alt=""> <span>Juarez-maciel</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/twitter.svg" alt=""> <span>Tupan_</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/globe.svg" alt=""> <span>https://juarezmaciel.dev.com</span>
+                </div>
+
+                <div class="contact--item">
+                    <img src="assets/mail.svg" alt=""> <span>juarezmaciel.dev@gmail.com</span>
+                </div>
+
+            </div>
+
+            <div class="box--lateral">
+                techs
+            </div>
+
+            <div class="box--lateral">
+                experiencias
+            </div>
+
+            <div class="box--lateral">
+                educação
+            </div>
+        </div>
+
+        <div class="coluna-principal">
+            ...
+        </div>
+
     </div>
 </body>
 </html>
