@@ -138,6 +138,7 @@ h1{
 }
 
 /*box projects*/
+
 .box--principal-projects{
     width: 780px;
     margin: 0;
@@ -173,4 +174,89 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 12px;
+}
+
+
+/*responsividade*/
+
+@media (min-width: 769px) and (max-width: 1140px) {
+    
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    *{
+        box-sizing: content-box;
+    }
+    .container-grid {
+        grid-template-columns: 1fr 650px;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .box--principal-projects{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 650px;
+    }
+    .box--principal-title{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .container-grid{
+        max-width: 200px;
+        grid-template-columns: 1fr;
+        padding: 0px;
+        margin: 0;
+    }
+    
+    .box--lateral{
+        max-width: 250px;
+        min-height: 100px;
+        background-color: var(--bg-cards);
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .contact{
+        word-break: break-word;
+    }
+
+    .box--principal-title{
+        width: 250px;
+        background-color: var(--bg-cards);
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .box--principal-projects{
+        max-width: 250px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .projects{
+        width: 200px;
+        margin-top: 20px;
+        min-height: 200px;
+        background-color: var(--bg-cards);
+        border-radius: 20px;
+    }
+    
+    .box--principal-posts{
+        width: 200px;
+        min-height: 200px;
+        background-color: var(--bg-cards);
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    footer{
+        display: none;
+    }
+    
 }
